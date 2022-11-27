@@ -9,4 +9,7 @@
 ## Project Background
 Earth Ally was a mock fashion brand that I created in 2020. I created this landing page design in Adobe InDesign. I decided to recreate the design but by using web development tools.
 
+# Misc
+Start: Nov 27, 2022
+
 
