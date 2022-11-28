@@ -1,7 +1,7 @@
 # earth-ally
 
 ## Desired Outcome
-![image of desired outcome for landing page](readme-previews/desktop-goal.png")
+![image of desired outcome for landing page](readme-previews/desktop-goal.png)
 
 ## Project Goals
 * Continue practicing HTML, CSS, and Flexbox by creating a landing page for a mock fashion brand
