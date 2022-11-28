@@ -1,0 +1,18 @@
+color palette
+white
+black
+#E6DFD9
+#CA8B1A5
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+}
+
+body{
+ 	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
