@@ -74,11 +74,12 @@ ul{
 }
 
 .sustain-block p,
-.about-block p{
+.about-block p,
+.item p{
 	font-family: 'Lucida Sans';
 }
 
-
+/* who are we section */ 
 .about-block{
 	background: #FAF9F6;
 	padding: 64px 0;
@@ -91,6 +92,7 @@ ul{
 	margin: 0 auto;
 }
 
+/* sustainability section */
 .sustain-block{
 	background: #E6DFD9;
 	padding: 64px 0;
@@ -114,5 +116,61 @@ ul{
 .sustain-right{
 	text-align: center;
 	max-width: 50%;
+}
 
+/* goals and values section */
+.goals-block{
+	padding: 64px 0;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.goals-block h2{
+	text-align: left;
+}
+
+.goals-container{
+	/* border: solid 1px red; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.item{
+	/* border: solid 1px blue; */
+	text-align: left;
+	width: 30%;
+	min-width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.item img{
+	width: 300px;
+}
+
+.item p{
+	width: 300px;
+}
+
+.item h3{
+	text-align: left;
+	width: 300px;
+}
+
+/* preview section */
+.shop-block{
+	background: #E6DFD9;
+	padding: 64px 0;
+}
+
+.shop-container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.shop-item img{
+	width: 300px;
 }
