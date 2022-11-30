@@ -2,7 +2,7 @@ color palette
 white 		#FAF9F6
 black 		#28282B
 #E6DFD9
-#CA8B1A5
+#C8B1A5
 
 *{
 	box-sizing: border-box;
@@ -169,8 +169,47 @@ ul{
 .shop-container{
 	display: flex;
 	justify-content: space-around;
+	overflow: auto;
+	gap: 24px;
 }
 
 .shop-item img{
 	width: 300px;
+}
+
+footer{
+	background: #C8B1A5;
+	padding: 64px 0;
+}
+
+.footer-container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer-left{
+	border: solid 1px darkred;
+}
+
+.footer-right{
+	border: solid 1px lightred;
+	display: flex;
+	gap: 32px;
+}
+
+.footer-about,
+.footer-help{
+	text-align: left;
+}
+
+.footer-right p{
+	font-weight: bold;
+}
+
+.footer-right ul{
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding: 0;
+	margin: 0;
 }
