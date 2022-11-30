@@ -16,13 +16,14 @@ body{
  	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+	margin: 0;
 }
 
 nav{
 	color: #FAF9F6;
 	display: flex;
 	justify-content: flex-end;
-	margin-right: 24px;
+	margin-right: 64px;
 }
 
 ul{
@@ -32,15 +33,13 @@ ul{
 	list-style-type: none;
 	font-size: 18px;
 }
-
-/* fix bg image*/ 
+ 
 .hero-block{
-	border: solid 1px red;
 	background-color: ##E6DFD9;
 	background-image: url("img/header.jpg");
 	background-size: cover;
 	color: ##28282B;
-	height: 600px;
+	height: 860px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -53,16 +52,26 @@ ul{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	text-align: center;
 	align-items: center;
+}
+
+.hero-left h1{
+	text-align: left;
+	width: 40%;
+	font-size: 48px;
 }
 
 .hero-left p{
 	font-size: 32px;
 	width: 40%;
+	margin: auto 0;
 	text-align: left;
 }
 
+.hero-left button{
+	position: relative;
+	bottom: 15%;
+}
 .shop-here{
 	background: #FAF9F6;
 	font-family: Georgia;
@@ -130,6 +139,11 @@ ul{
 	text-align: left;
 }
 
+.goals-block h2,
+.shop-block h2{
+	padding-left: 62px;
+}
+
 .goals-container{
 	/* border: solid 1px red; */
 	display: flex;
@@ -160,10 +174,7 @@ ul{
 	width: 300px;
 }
 
-.goals-block h2,
-.shop-block h2{
-	padding-left: 62px;
-}
+
 
 /* preview section */
 .shop-block{
